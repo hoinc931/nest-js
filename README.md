@@ -1,20 +1,31 @@
 # nest-js
 
 <!-- packages -->
----- install global nestjs and create an project----
+# install global nestjs and create an project
+
+## install nestjs global
+```bash
 npm install -b @nestjs-cli
-
+```
+## Create/generate an nestjs app
+```bash
 nest new "name-project"
+```
 
-
---------- modules --------
+<!-- --------- modules -------- -->
 
 
 
 <!--  -->
-------bash-----
-nest g module "name-module"  --> create/generate an module
-nest g controller "name-controller" --> create/generate an controller
+# Create/geanerate more
 
+## Module
+```bash
+nest g module [name-module]
+```
+## Controller
+```bash
+nest g controller [name-controller]
+```
 
 # project in an other branch :v
