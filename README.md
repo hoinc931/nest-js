@@ -1,14 +1,15 @@
-# nest-js
+# nest-js app - project in an other branch :v
 
 <!-- packages -->
-# install global nestjs and create an project
+## Install global nestjs and create an project
+<br/>
+<br/><br/>
 
-## install nestjs global
 ```bash
+# install nestjs global
 npm install -b @nestjs-cli
-```
-## Create/generate an nestjs app
-```bash
+
+# Create/generate an nestjs app
 nest new "name-project"
 ```
 
@@ -17,15 +18,14 @@ nest new "name-project"
 
 
 <!--  -->
-# Create/geanerate more
+## Create/geanerate more
 
-## Module
 ```bash
+
+# Module
 nest g module [name-module]
-```
-## Controller
-```bash
+
+# Controller
 nest g controller [name-controller]
 ```
 
-# project in an other branch :v
