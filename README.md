@@ -1,9 +1,6 @@
 # nest-js app - project in an other branch :v
 
 
-<br/>
-<br/><br/>
-<!-- packages -->
 ## Install global nestjs and create an project
 
 ```bash
