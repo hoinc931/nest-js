@@ -20,6 +20,13 @@ import { Request, Response } from 'express';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
+  @Get('/test')
+  testGet() {
+    return {
+      message: 'hello world',
+    };
+  }
+
   @Get()
   getByQuery(@Res() res: Response, @Query() query: any) {
     return res.json({
