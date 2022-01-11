@@ -11,9 +11,11 @@ $ npm install -b @nestjs-cli
 $ nest new "name-project"
 ```
 
-<!-- --------- modules -------- -->
-
-
+<!-- --------- More Package modules -------- -->
+## More Package modules
+ - cors
+ - bordy-parser
+ - morgan
 
 <!--  -->
 ## Create/geanerate more Module, Provider
@@ -28,6 +30,9 @@ $ nest g controller [name-controller]
 
 # Service
 $ nest g service [name-service]
+
+#
+$ nest g class task/task.entity
 ```
 
 ##  Terms
@@ -40,6 +45,7 @@ $ nest g service [name-service]
 
 ## Request Payload
 // create-cat.dto.ts
+
 export class CreateCatDto {
   readonly name: string;
   readonly age: number;
